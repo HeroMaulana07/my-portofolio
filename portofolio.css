@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #b96b14;
+    --main-color: #8c149b;
 }
 
 html {
@@ -744,7 +744,7 @@ span {
         display: block;
         width: 100%;
         height: 5px;
-        background: #b96b14;
+        background: #8c149b;
         margin: 6px 0px;
         transition: 0.4s;
     }
