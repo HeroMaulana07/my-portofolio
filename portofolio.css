@@ -449,7 +449,7 @@ span {
 
 .service-info p {
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 300;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
@@ -745,7 +745,7 @@ span {
         width: 100%;
         height: 5px;
         background: #cd0b5a;
-        margin: 6px 0px;
+        margin: 6px 0;
         transition: 0.4s;
     }
     .sidebar.is-active:before {
@@ -757,4 +757,17 @@ span {
     .sidebar.is-active .bar {
         opacity: 0;
     }
+}
+@media(max-width:420px) {
+    .service-info h4 {
+        line-height: 1;
+    }
+    
+    .service-info p {
+        line-height: 1.3;
+    }
+    .testimonials-box .heading  {
+        font-size: 50px;
+    }
+
 }
